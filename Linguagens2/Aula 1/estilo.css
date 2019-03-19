@@ -1,0 +1,126 @@
+.color-primary-0{color:#123652}
+
+#box1{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+
+#box2{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    
+}
+#box3{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #0871c2;
+    padding: 10px 10px 10px 10px;
+    background-color: #0984e3;
+    color:aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#box4{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #0871c2;
+    padding: 10px 10px 10px 10px;
+    background-color: #0984e3;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 23px;
+    font-family: 'Righteous', cursive;
+    font-size:150%;
+    font-weight: 300;
+    cursor: pointer;
+}
+#box4a{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #0871c2;
+    padding: 10px 30px 10px 30px;
+    background-color: #0984e3;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 23px;
+    font-family: 'Righteous', cursive;
+    font-size:150%;
+    font-weight: 300;
+    cursor: pointer;
+}
+#box4a:hover{
+    background-color: aqua;
+}
+#box5{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #0871c2;
+    padding: 10px 30px 10px 30px;
+    background-color: #0984e3;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 23px;
+    font-family: 'Righteous', cursive;
+    font-size:150%;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 1s, border-radius ease-in-out 1s;
+}
+#box5:hover{
+    background-color: aqua;
+    transition: background-color 1s, border-radius ease-in-out 1s;
+    border-radius:50%;
+}
+
+
+.container {
+    display:inline;
+    text-align:left;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #09181f;
+	-webkit-box-shadow: 0px 1px 0px 0px #09181f;
+	box-shadow: 0px 1px 0px 0px #09181f;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #000000 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #000000 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #000000 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #000000 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #000000 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff',GradientType=0);
+	background-color:#000000;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #000000));
+	background:-moz-linear-gradient(top, #ffffff 5%, #000000 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #000000 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #000000 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #000000 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #000000 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000',GradientType=0);
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
