@@ -2,7 +2,8 @@
 var gulp = require('gulp');
 var mincss = require('gulp-clean-css');
 var concat = require('gulp-concat');
-
+var uglify = require('gulp-uglify');
+var imagemin = require('gulp-imagemin');
 
 
 
